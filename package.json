@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.15.4",
+    "nuxt-mongoose": "^1.0.6",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.5.1",
+    "bcrypt": "^5.1.1",
+    "discord.js": "^14.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.3"
+  }
+}
