@@ -1,6 +1,6 @@
 import { ApplicationCommandOptionType } from "discord.js";
 import type { NDiscordBot } from "../types/ICommand";
-import internalFetch from "../controller/internalFetch";
+import internalFetch from "../utils/internalFetch";
 
 const DESCRIPTION_OPTION_NAME = "descripcion";
 

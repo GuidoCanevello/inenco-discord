@@ -1,5 +1,5 @@
 import type { NDiscordBot } from "../types/ICommand";
-import internalFetch from "../controller/internalFetch";
+import internalFetch from "../utils/internalFetch";
 
 export const getIncompletedTasks: NDiscordBot.ICommand = {
     name: "ver_tareas_incompletas",
